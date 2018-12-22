@@ -2,6 +2,7 @@ import torch
 import torchvision
 import torch.utils.data
 from torchvision import transforms
+from torch.backends import cudnn
 
 # some hyperparameters setting
 use_gpu = True
@@ -53,6 +54,7 @@ if use_gpu:
 criterion = torch.nn.CrossEntropyLoss()
 if use_gpu:
     criterion = criterion.cuda()
+    cudnn.benchmark = True
 
 # Fifth step: Create you optimizer
 # ToDo: you can set different parameters for different learning strategy

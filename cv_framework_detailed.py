@@ -1,6 +1,7 @@
 import torch
 import torchvision
 import torch.utils.data
+from torch.backends import cudnn
 from torchvision import transforms
 
 # some hyperparameters setting
@@ -86,6 +87,7 @@ model = torchvision.models.resnet50(pretrained=False)
 # Copy the model to CUDA memory, and return it
 if use_gpu:
     model = model.cuda()
+cudnn.benchmark = True
 
 # Fourth step: Create you criterion, 
 # e.g. classification-torch.nn.CrossEntropyLoss; regression-torch.nn.MSELoss
