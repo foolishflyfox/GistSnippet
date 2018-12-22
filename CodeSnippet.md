@@ -5,7 +5,8 @@
 
 ### Computer Vision
 
-- [train framework **Detail**](https://gist.github.com/foolishflyfox/3ea9f6f7efcef88edc5b73a22066dfb1)
+- [train framework **Detailed**](https://gist.github.com/foolishflyfox/3ea9f6f7efcef88edc5b73a22066dfb1)
+- [train framework **simplified**](https://gist.github.com/foolishflyfox/ac4c27d9505b17aafa57329dc95d7640)
 
 ## System
 
