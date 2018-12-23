@@ -32,6 +32,17 @@ Standard glob patterns work in gitignore, glob is very simple:
 
 .gitignore example for dozens of projects and languages at <https://github.com/github/gitignore>
 
+## git diff tools
+
+Tools such as vimdiff and opendiff is not so accurate when search for modified codes as Beyond Compare.
+
+### How to use Beyond Compare with git
+
+1. Install Beyond Compare
+2. Open Beyond Compare, click *"Beyond Compare -> Install Command Line Tools..."* item in its menu
+3. When you want to check the difference, just run `git difftool --tool=bc`, and you can also code in it
+4. You can also run it with shell command `bcomp file1 file2`
+
 
 
 
