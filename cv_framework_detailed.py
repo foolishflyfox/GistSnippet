@@ -98,7 +98,9 @@ criterion = torch.nn.CrossEntropyLoss()
 if use_gpu:
     criterion = criterion.cuda()
 
-# Fifth step: Create you optimizer
+# Fifth step: Create you optimizer.
+# If you need to move a model to GPU via .cuda(), please do so before constructing optimizers for it.
+# Parameters of a model after .cude will be different objects with those before the call.
 # ToDo: you can set different parameters for different strategy
 optimizer = torch.optim.RMSprop(model.parameters(), lr=0.01)
 
