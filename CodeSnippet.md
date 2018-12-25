@@ -20,5 +20,5 @@
 # Tool Usage
 
 - [background process <-> foreground process & change parent process](https://gist.github.com/foolishflyfox/663fa5c7b545ffeaea01b32d11547ae4)
-
+- [NFS configuration](https://gist.github.com/foolishflyfox/80844e974d243eb63f4b9a1d5246c9d0)
 - [git usage](https://gist.github.com/foolishflyfox/e305bc8b6e2cc8d8c608fc4521638800)
