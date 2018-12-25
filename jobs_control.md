@@ -5,7 +5,7 @@ Commands:
 - `setsid ./tst.py &`: print output in stdout, set the parent process as #1 process.
 - `disown %1`: change the parent process of a background process
 - hot key `ctrl+z`: suspend foreground process
-- `bg %1`: trun foreground job #1 to background
+- `bg %1`: trun foreground job #1 to background, equal to `kill -CONT -pid_value`
 - `bg`: trun all foreground job to background
 - `fg %1`: trun background job to foreground
 - `fg`: trun all background job to foreground

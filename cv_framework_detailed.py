@@ -144,7 +144,7 @@ for epoch in range(epochs):
     # Validation phase
     if val_dataset_loader is not None:
         print('begin to validation process ...')
-        with torch.no_grad():
+        with torch.set_grad_enabled(False):
             for input_imgs, labels in val_dataset_loader:
                 prediction = model(input_imgs)
                 val_step_loss = criterion(prediction, labels)
