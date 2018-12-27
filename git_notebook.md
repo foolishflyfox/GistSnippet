@@ -44,6 +44,8 @@ Tools such as vimdiff and opendiff is not so accurate when search for modified c
 4. You can also run it with shell command `bcomp file1 file2`
 
 
+## change the last commit
 
+- `git commit --amend`: it will store staged file to repository and modify last commit message
 
 
