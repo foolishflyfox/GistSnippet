@@ -17,6 +17,11 @@
 ### Image Display
 - [Images display in grid with matplotlib](https://gist.github.com/foolishflyfox/4ef60826206b0ecb84f94e307f80838f)
 - [Animation display in Jupyter notebook](https://gist.github.com/foolishflyfox/e30fd8bfbb6a9cee9b1a1fa6144b209c)
+
+# Network
+
+- [shadowsocks server](https://gist.github.com/foolishflyfox/09c80bf33ee236308fc5721272f2aa3e)
+
 # Tool Usage
 
 - [background process <-> foreground process & change parent process](https://gist.github.com/foolishflyfox/663fa5c7b545ffeaea01b32d11547ae4)
