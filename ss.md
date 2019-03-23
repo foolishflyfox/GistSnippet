@@ -34,7 +34,7 @@ chmod +x shadowsocks.sh
 3.1 在 ubuntu 16.04 下安装
 
 - 检测 BBR 是否开启 `sysctl net.ipv4.tcp_available_congestion_control`
-如果是：`net.ipv4.tcp_available_congestion_control = cubic reno`就是没有开启
+如果输出是：`net.ipv4.tcp_available_congestion_control = cubic reno`就是没有开启
 
 - 再次确认：`sysctl net.ipv4.tcp_congestion_control`
 输出为：`net.ipv4.tcp_congestion_control = cubic`
