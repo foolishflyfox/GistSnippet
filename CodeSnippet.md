@@ -11,6 +11,7 @@
 ## System
 
 - [argparse module usage demo](https://gist.github.com/foolishflyfox/097aaedbcedf634649450b1c8bb4b6f7)
+- [get local ip address](https://gist.github.com/foolishflyfox/7a62c3dedfabe1acb27278bd3f7c2571)
 
 ## Image
 
