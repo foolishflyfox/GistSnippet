@@ -43,4 +43,13 @@ chmod +x shadowsocks.sh
 安装新内核可以使用命令：`sudo apt-get install linux-generic-hwe-16.04`，重启后再看内核版本应该就满足要求了
 
 - 启动 BBR 服务：`sudo modprobe tcp_bbr; echo "tcp_bbr" | sudo tee -a /etc/modules-load.d/modules.conf`
+正式启用: 
+```
+echo "net.core.default_qdisc=fq" | sudo tee -a /etc/sysctl.conf
+
+echo "net.ipv4.tcp_congestion_control=bbr" | sudo tee -a /etc/sysctl.conf
+
+sudo sysctl -p
+```
+
 再检测BBR是否开启:`sysctl net.ipv4.tcp_congestion_control`，应该输出为：`net.ipv4.tcp_congestion_control = bbr`
